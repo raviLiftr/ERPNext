@@ -1,0 +1,335 @@
+2023-10-28 18:44:24,678 DEBUG cd frappe-bench && python3 -m venv env
+2023-10-28 18:44:27,382 DEBUG cd frappe-bench && /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-10-28 18:44:29,488 DEBUG cd frappe-bench && /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-10-28 18:44:30,654 LOG Getting frappe
+2023-10-28 18:44:30,654 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2023-10-28 18:44:34,964 LOG Installing frappe
+2023-10-28 18:44:34,965 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench && /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe 
+2023-10-28 18:45:11,327 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe && yarn install
+2023-10-28 18:45:16,309 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-10-28 18:45:16,309 DEBUG cd frappe-bench && bench build
+2023-10-28 18:45:16,486 INFO /opt/homebrew/bin/bench build
+2023-10-28 18:45:27,117 LOG setting up backups
+2023-10-28 18:45:30,862 LOG backups were set up
+2023-10-28 18:45:30,863 INFO Bench frappe-bench initialized
+2023-10-28 18:45:31,044 INFO A newer version of bench is available: 5.17.2 → 5.18.0
+2023-10-28 18:46:26,096 INFO /opt/homebrew/bin/bench start
+2023-10-28 18:46:26,384 INFO /opt/homebrew/bin/bench watch
+2023-10-28 18:46:26,384 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-10-28 18:46:26,387 INFO /opt/homebrew/bin/bench worker
+2023-10-28 18:46:26,387 INFO /opt/homebrew/bin/bench schedule
+2023-10-28 18:46:59,857 INFO /opt/homebrew/bin/bench new-site site3.test
+2023-10-28 18:48:08,631 INFO /opt/homebrew/bin/bench get-app erpnext
+2023-10-28 18:48:09,106 LOG Getting erpnext
+2023-10-28 18:48:09,106 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git  --depth 1 --origin upstream
+2023-10-28 18:48:14,075 LOG Installing erpnext
+2023-10-28 18:48:14,287 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench && /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/erpnext 
+2023-10-28 18:48:20,830 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/erpnext && yarn install
+2023-10-28 18:48:21,086 DEBUG bench build --app erpnext
+2023-10-28 18:48:21,219 INFO /opt/homebrew/bin/bench build --app erpnext
+2023-10-28 18:48:23,300 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-10-28 18:48:23,362 INFO A newer version of bench is available: 5.17.2 → 5.18.0
+2023-10-28 18:49:02,854 INFO /opt/homebrew/bin/bench --site site3.test install-app erpnext
+2023-10-28 18:50:39,808 INFO /opt/homebrew/bin/bench --site site3.test add-to-hosts
+2023-10-28 18:50:50,505 INFO /opt/homebrew/bin/bench start
+2023-10-28 18:50:50,830 INFO /opt/homebrew/bin/bench schedule
+2023-10-28 18:50:50,830 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-10-28 18:50:50,830 INFO /opt/homebrew/bin/bench watch
+2023-10-28 18:50:50,831 INFO /opt/homebrew/bin/bench worker
+2023-10-28 18:51:32,099 INFO /opt/homebrew/bin/bench get-app hrms
+2023-10-28 18:51:32,560 LOG Getting hrms
+2023-10-28 18:51:32,560 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-10-28 18:51:34,446 LOG Installing hrms
+2023-10-28 18:51:34,711 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench && /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/hrms 
+2023-10-28 18:51:36,752 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/hrms && yarn install
+2023-10-28 18:51:37,189 DEBUG bench build --app hrms
+2023-10-28 18:51:37,316 INFO /opt/homebrew/bin/bench build --app hrms
+2023-10-28 18:51:39,549 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-10-28 18:51:39,610 INFO A newer version of bench is available: 5.17.2 → 5.18.0
+2023-10-28 18:52:01,883 INFO /opt/homebrew/bin/bench --site site3.test install-app hrms
+2023-10-28 18:53:03,173 INFO /opt/homebrew/bin/bench start
+2023-10-28 18:53:03,476 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-10-28 18:53:03,481 INFO /opt/homebrew/bin/bench schedule
+2023-10-28 18:53:03,481 INFO /opt/homebrew/bin/bench watch
+2023-10-28 18:53:03,483 INFO /opt/homebrew/bin/bench worker
+2023-10-28 18:53:14,701 INFO /opt/homebrew/bin/bench --site site3.test install-app hrms
+2023-10-28 20:59:31,331 INFO /opt/homebrew/bin/bench find .
+2023-10-28 20:59:31,743 INFO A newer version of bench is available: 5.17.2 → 5.18.0
+2023-10-28 21:00:26,712 INFO /opt/homebrew/bin/bench new-app dreamteam
+2023-10-28 21:00:26,715 LOG creating new app dreamteam
+2023-10-28 21:01:28,532 LOG Installing dreamteam
+2023-10-28 21:01:28,534 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench && /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/dreamteam 
+2023-10-28 21:01:30,708 DEBUG bench build --app dreamteam
+2023-10-28 21:01:30,807 INFO /opt/homebrew/bin/bench build --app dreamteam
+2023-10-28 21:01:32,660 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-10-28 21:01:32,768 INFO A newer version of bench is available: 5.17.2 → 5.18.0
+2023-10-28 21:02:45,250 INFO /opt/homebrew/bin/bench --site site3.test install-app dreamteam
+2023-10-28 21:05:05,768 INFO /opt/homebrew/bin/bench --site site3.test list-apps
+2023-10-29 00:00:01,128 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-29 00:34:46,670 INFO /opt/homebrew/bin/bench set-config -g developer_mode true
+2023-10-29 00:34:56,891 INFO /opt/homebrew/bin/bench start
+2023-10-29 00:34:57,206 INFO /opt/homebrew/bin/bench worker
+2023-10-29 00:34:57,206 INFO /opt/homebrew/bin/bench schedule
+2023-10-29 00:34:57,206 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-10-29 00:34:57,206 INFO /opt/homebrew/bin/bench watch
+2023-10-29 01:03:00,161 INFO /opt/homebrew/bin/bench clear-cache
+2023-10-29 01:03:16,436 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-10-29 02:19:42,932 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-10-29 02:34:00,375 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-10-29 23:39:50,197 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-10-30 12:00:00,964 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-30 18:00:01,354 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-30 18:18:00,228 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-10-30 18:23:30,479 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-10-30 18:26:03,393 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-10-30 18:26:07,468 INFO /opt/homebrew/bin/bench start
+2023-10-30 18:26:07,776 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-10-30 18:26:07,777 INFO /opt/homebrew/bin/bench watch
+2023-10-30 18:26:07,779 INFO /opt/homebrew/bin/bench schedule
+2023-10-30 18:26:07,781 INFO /opt/homebrew/bin/bench worker
+2023-10-30 20:34:45,678 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-10-30 21:26:36,509 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-10-31 12:00:00,668 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-01 00:00:01,344 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-01 12:00:00,759 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-01 18:00:00,741 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-02 12:00:00,755 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-02 18:00:00,442 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-03 10:20:26,221 INFO /opt/homebrew/bin/bench start
+2023-11-03 10:20:26,565 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-11-03 10:20:26,571 INFO /opt/homebrew/bin/bench watch
+2023-11-03 10:20:26,577 INFO /opt/homebrew/bin/bench schedule
+2023-11-03 10:20:26,577 INFO /opt/homebrew/bin/bench worker
+2023-11-03 12:00:00,408 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-04 00:00:01,552 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-05 17:46:16,836 INFO /opt/homebrew/bin/bench start
+2023-11-05 17:46:17,114 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-11-05 17:46:17,114 INFO /opt/homebrew/bin/bench watch
+2023-11-05 17:46:17,117 INFO /opt/homebrew/bin/bench schedule
+2023-11-05 17:46:17,120 INFO /opt/homebrew/bin/bench worker
+2023-11-05 18:00:00,753 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-06 00:00:01,658 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-06 18:00:00,766 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-07 18:00:01,224 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-08 12:00:01,338 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-09 00:00:00,737 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-09 12:00:01,475 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-10 00:00:00,877 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-10 12:00:00,747 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-13 00:00:01,102 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-13 12:00:01,724 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-14 12:00:01,322 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-15 00:00:01,325 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-15 18:00:00,593 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-16 00:00:01,395 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-16 12:00:00,821 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-16 18:00:01,661 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-18 00:00:01,027 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-18 06:08:46,206 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-18 12:00:00,756 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-19 00:00:00,535 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-19 12:00:01,248 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-19 18:00:00,881 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-20 00:00:01,020 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-20 12:00:00,923 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-20 18:00:01,425 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-21 00:00:01,488 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-21 18:00:01,515 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-22 00:00:01,326 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-22 12:00:00,550 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-22 18:00:00,508 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-23 00:05:29,725 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-23 12:00:01,233 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-23 18:00:00,633 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-24 00:00:01,275 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-24 12:00:01,610 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-24 18:00:01,144 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-25 00:00:01,639 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-25 18:00:01,516 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-26 00:00:01,425 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-26 12:00:00,713 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-26 18:00:01,631 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-27 00:00:01,195 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-27 18:00:01,330 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-28 12:00:01,019 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-28 18:00:01,334 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-29 12:00:01,530 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-29 18:00:01,136 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-11-30 12:00:00,795 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-01 12:00:00,767 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-01 18:00:00,894 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-02 00:00:00,941 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-02 18:00:01,153 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-03 00:01:43,808 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-03 06:00:51,200 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-04 00:00:01,323 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-04 12:00:01,454 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-04 18:00:00,995 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-05 00:00:00,833 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-05 12:00:00,773 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-05 18:00:01,503 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-06 00:00:00,835 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-06 12:00:01,026 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-06 18:00:01,458 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-07 00:00:00,557 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-07 12:03:53,435 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-07 18:00:01,130 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-08 00:00:00,897 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-10 00:00:01,970 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-10 12:00:00,669 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-10 18:00:01,080 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-11 00:00:00,648 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-11 12:00:01,492 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-12 00:00:00,733 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-12 12:00:00,731 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-12 18:00:01,511 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-13 12:00:44,414 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-13 18:00:00,961 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-14 00:00:01,514 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-14 12:00:01,772 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-14 18:00:01,425 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-15 00:16:38,673 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-15 12:00:00,922 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-15 17:57:48,916 INFO /opt/homebrew/bin/bench start
+2023-12-15 17:57:49,259 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 17:57:49,259 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 17:57:49,260 INFO /opt/homebrew/bin/bench watch
+2023-12-15 17:57:49,263 INFO /opt/homebrew/bin/bench worker
+2023-12-15 18:00:00,704 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-15 18:07:38,296 INFO /opt/homebrew/bin/bench start
+2023-12-15 18:07:38,619 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 18:07:38,619 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 18:07:38,620 INFO /opt/homebrew/bin/bench watch
+2023-12-15 18:07:38,620 INFO /opt/homebrew/bin/bench worker
+2023-12-15 18:21:48,958 INFO /opt/homebrew/bin/bench init frappe-insights-bench
+2023-12-15 18:21:48,999 DEBUG cd frappe-insights-bench && python3 -m venv env
+2023-12-15 18:21:51,478 DEBUG cd frappe-insights-bench && /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/frappe-insights-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-12-15 18:21:53,251 DEBUG cd frappe-insights-bench && /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/frappe-insights-bench/env/bin/python -m pip install --quiet wheel
+2023-12-15 18:21:53,824 LOG Getting frappe
+2023-12-15 18:21:53,824 DEBUG cd frappe-insights-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2023-12-15 18:21:59,687 LOG Installing frappe
+2023-12-15 18:21:59,688 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/frappe-insights-bench && /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/frappe-insights-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/frappe-insights-bench/apps/frappe 
+2023-12-15 18:22:23,107 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/frappe-insights-bench/apps/frappe && yarn install
+2023-12-15 18:22:28,913 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-12-15 18:22:28,913 DEBUG cd frappe-insights-bench && bench build
+2023-12-15 18:22:39,152 LOG setting up backups
+2023-12-15 18:22:41,216 LOG backups were set up
+2023-12-15 18:22:41,217 INFO Bench frappe-insights-bench initialized
+2023-12-15 18:22:41,395 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-15 18:22:46,133 INFO /opt/homebrew/bin/bench start
+2023-12-15 18:22:56,792 INFO /opt/homebrew/bin/bench start
+2023-12-15 18:22:57,105 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 18:22:57,105 INFO /opt/homebrew/bin/bench watch
+2023-12-15 18:22:57,105 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 18:22:57,106 INFO /opt/homebrew/bin/bench worker
+2023-12-15 18:38:58,289 INFO /opt/homebrew/bin/bench start
+2023-12-15 18:39:03,058 INFO /opt/homebrew/bin/bench start
+2023-12-15 18:39:09,084 INFO /opt/homebrew/bin/bench start
+2023-12-15 18:40:40,198 INFO /opt/homebrew/bin/bench start
+2023-12-15 18:42:26,839 INFO /opt/homebrew/bin/bench start
+2023-12-15 18:42:55,143 INFO /opt/homebrew/bin/bench restart
+2023-12-15 18:42:55,164 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-12-15 18:42:55,337 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-15 18:43:03,252 INFO /opt/homebrew/bin/bench start
+2023-12-15 18:46:21,279 INFO /opt/homebrew/bin/bench start
+2023-12-15 18:46:21,577 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 18:46:21,577 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 18:46:21,577 INFO /opt/homebrew/bin/bench watch
+2023-12-15 18:46:21,584 INFO /opt/homebrew/bin/bench worker
+2023-12-15 19:50:21,876 INFO /opt/homebrew/bin/bench clear-cache
+2023-12-15 19:50:53,482 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 19:51:03,333 INFO /opt/homebrew/bin/bench start
+2023-12-15 19:51:03,634 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 19:51:03,634 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 19:51:03,637 INFO /opt/homebrew/bin/bench watch
+2023-12-15 19:51:03,637 INFO /opt/homebrew/bin/bench worker
+2023-12-15 20:07:57,449 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 20:08:00,930 INFO /opt/homebrew/bin/bench start
+2023-12-15 20:08:01,214 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 20:08:01,219 INFO /opt/homebrew/bin/bench watch
+2023-12-15 20:08:01,220 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 20:08:01,223 INFO /opt/homebrew/bin/bench worker
+2023-12-15 20:48:57,947 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 20:49:01,818 INFO /opt/homebrew/bin/bench start
+2023-12-15 20:49:02,122 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 20:49:02,124 INFO /opt/homebrew/bin/bench watch
+2023-12-15 20:49:02,126 INFO /opt/homebrew/bin/bench worker
+2023-12-15 20:49:02,126 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 20:52:40,155 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 20:52:44,034 INFO /opt/homebrew/bin/bench start
+2023-12-15 20:52:44,344 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 20:52:44,347 INFO /opt/homebrew/bin/bench watch
+2023-12-15 20:52:44,347 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 20:52:44,352 INFO /opt/homebrew/bin/bench worker
+2023-12-15 20:54:09,526 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 20:54:12,486 INFO /opt/homebrew/bin/bench start
+2023-12-15 20:54:12,768 INFO /opt/homebrew/bin/bench watch
+2023-12-15 20:54:12,768 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 20:54:12,769 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 20:54:12,772 INFO /opt/homebrew/bin/bench worker
+2023-12-15 20:55:31,437 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 20:55:34,287 INFO /opt/homebrew/bin/bench start
+2023-12-15 20:55:34,563 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 20:55:34,563 INFO /opt/homebrew/bin/bench watch
+2023-12-15 20:55:34,563 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 20:55:34,566 INFO /opt/homebrew/bin/bench worker
+2023-12-15 21:26:39,181 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 21:26:41,737 INFO /opt/homebrew/bin/bench start
+2023-12-15 21:26:42,041 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 21:26:42,041 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 21:26:42,041 INFO /opt/homebrew/bin/bench watch
+2023-12-15 21:26:42,042 INFO /opt/homebrew/bin/bench worker
+2023-12-15 21:43:15,485 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 21:43:18,122 INFO /opt/homebrew/bin/bench start
+2023-12-15 21:43:18,422 INFO /opt/homebrew/bin/bench watch
+2023-12-15 21:43:18,422 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 21:43:18,426 INFO /opt/homebrew/bin/bench worker
+2023-12-15 21:43:18,426 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 21:45:41,250 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 21:45:44,135 INFO /opt/homebrew/bin/bench start
+2023-12-15 21:45:44,434 INFO /opt/homebrew/bin/bench watch
+2023-12-15 21:45:44,434 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 21:45:44,435 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 21:45:44,436 INFO /opt/homebrew/bin/bench worker
+2023-12-15 21:48:08,800 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 21:48:12,762 INFO /opt/homebrew/bin/bench start
+2023-12-15 21:48:13,058 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 21:48:13,059 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 21:48:13,060 INFO /opt/homebrew/bin/bench watch
+2023-12-15 21:48:13,061 INFO /opt/homebrew/bin/bench worker
+2023-12-15 21:49:42,667 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 21:49:45,694 INFO /opt/homebrew/bin/bench start
+2023-12-15 21:49:45,982 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 21:49:45,988 INFO /opt/homebrew/bin/bench watch
+2023-12-15 21:49:45,988 INFO /opt/homebrew/bin/bench worker
+2023-12-15 21:49:45,988 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 21:54:20,261 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 21:54:23,420 INFO /opt/homebrew/bin/bench start
+2023-12-15 21:54:23,724 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 21:54:23,727 INFO /opt/homebrew/bin/bench watch
+2023-12-15 21:54:23,727 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 21:54:23,730 INFO /opt/homebrew/bin/bench worker
+2023-12-15 21:58:40,908 INFO /opt/homebrew/bin/bench --site site3.test clear-cache
+2023-12-15 21:58:43,776 INFO /opt/homebrew/bin/bench start
+2023-12-15 21:58:44,082 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-15 21:58:44,082 INFO /opt/homebrew/bin/bench watch
+2023-12-15 21:58:44,084 INFO /opt/homebrew/bin/bench schedule
+2023-12-15 21:58:44,086 INFO /opt/homebrew/bin/bench worker
+2023-12-16 00:53:12,767 INFO /opt/homebrew/bin/bench get-app https://github.com/frappe/insights
+2023-12-16 00:53:12,784 LOG Getting insights
+2023-12-16 00:53:12,784 DEBUG cd ./apps && git clone https://github.com/frappe/insights  --depth 1 --origin upstream
+2023-12-16 00:53:17,326 LOG Installing insights
+2023-12-16 00:53:17,720 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench && /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/insights 
+2023-12-16 00:53:27,858 DEBUG cd /Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/insights && yarn install
+2023-12-16 00:53:35,195 DEBUG bench build --app insights
+2023-12-16 00:53:35,333 INFO /opt/homebrew/bin/bench build --app insights
+2023-12-16 00:53:46,792 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-12-16 00:53:47,205 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-16 00:54:48,587 INFO /opt/homebrew/bin/bench --site site3.test install-app insights
+2023-12-16 00:55:32,262 INFO /opt/homebrew/bin/bench start
+2023-12-16 00:55:32,555 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-12-16 00:55:32,556 INFO /opt/homebrew/bin/bench watch
+2023-12-16 00:55:32,558 INFO /opt/homebrew/bin/bench schedule
+2023-12-16 00:55:32,561 INFO /opt/homebrew/bin/bench worker
+2023-12-16 12:00:00,592 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-12-17 00:00:01,635 INFO /opt/homebrew/bin/bench --verbose --site all backup

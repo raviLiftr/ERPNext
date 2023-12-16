@@ -1,0 +1,2425 @@
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site site3.test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 764, in backup
+    odb = scheduled_backup(
+          ^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 547, in scheduled_backup
+    return new_backup(
+           ^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 598, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 186, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 391, in take_dump
+    db_exc = self.get_db_dump_exeuctable()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/utils/backups.py", line 381, in get_db_dump_exeuctable
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 570, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 542, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 496, in _raise_exception
+    raise exc
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+

@@ -1,0 +1,47 @@
+2023-11-02 18:54:37,967 ERROR scheduler Exception in Enqueue Events for Site site3.test
+Traceback (most recent call last):
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/env/lib/python3.11/site-packages/pymysql/connections.py", line 644, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 836, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 73, in enqueue_events_for_site
+    if is_scheduler_inactive():
+       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 110, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 123, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe/frappe/database/database.py", line 776, in get_single_value
+    ).run()
+      ^^^^^
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 87, in execute_query
+    result = frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe/frappe/database/database.py", line 194, in sql
+    self.connect()
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe/frappe/database/database.py", line 109, in connect
+    self._conn = self.get_connection()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 102, in get_connection
+    conn = self._get_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 108, in _get_connection
+    return self.create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 111, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/env/lib/python3.11/site-packages/pymysql/connections.py", line 358, in __init__
+    self.connect()
+  File "/Users/ravikumar/frappe-bench/frappe-bench/frappe-bench/env/lib/python3.11/site-packages/pymysql/connections.py", line 711, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
